@@ -19,5 +19,8 @@ int main() {
     int t_cnt = count(results.begin(), results.end(), "Tails");
     cout << "Heads: " << h_cnt << ", Tails: " << t_cnt << endl;
 
+    if(h_cnt > t_cnt) cout << "You won!" << endl;
+    else cout << "You lost!" << endl;
+
     return 0;
 }
