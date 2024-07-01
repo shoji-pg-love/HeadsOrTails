@@ -7,6 +7,13 @@ string coin_toss() {
 
 int main() {
     srand(time(0));
+
+    string name;
+    cout << "Who are you?" << endl;
+    cout << "> ";
+    getline(cin, name);
+    cout << "Hello, " << name << "!" << endl;
+
     cout << "Tossing a coin..." << endl;
     vector<string> results;
     for (int i = 1; i <= 3; ++i) {
