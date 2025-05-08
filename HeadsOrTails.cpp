@@ -1,3 +1,4 @@
+//project for univ course
 #include <bits/stdc++.h>
 using namespace std;
 
